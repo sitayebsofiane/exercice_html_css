@@ -1,4 +1,4 @@
-#  Sales dashboard
+#                   Sales dashboard
 >une société d'analyse de données, l'équipe a pensé à une nouvelle manière de présenter les données. Après concertation une nouvelle version du >tableau de bord pour la gestion des données a été conçu
 * ce project represente une maquette avec HTML et CSS  reproduire le plus fidèlement possible la maquette qui  a été donnée
 
