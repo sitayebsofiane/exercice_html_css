@@ -26,10 +26,53 @@
   <nav class="menu"> <h1> Sales dashboard </h1> </nav>
   <div class="content">
     <div class="left_div">
-      <p>Sales and states</p>
+      <h1>Sales and states</h1>
+     <!-- the first bloc of the left-->
+      <form method="post" action="traitement.php">
+            <p><label for="product">Product</label><input type="text" name="product" id="product" placeholder="product's name"/></p>
+            <p><label for="Price">Price</label><input type="text" name="Price" id="Price" /></p>
+            <p><label for="quantite">Quantite > to</label><input type="number" name="quantite" id="quantite" /></p>
+            <p><input type="submit" id="validate" name="validate" value="Sort"/></p>
+
+     </form>
+    <!-- the first bloc of the left-->
+    <table>
+        <caption> <i>Sales records </i> </caption>
+     
+            <tr>
+                <td><b>Article</b></td>
+                <td><b>Price</b></td>
+                <td><b>Quantity</b></td>
+            </tr>
+            <tr>
+                <td >data</td >
+                <td>data</td>
+                <td>data</td>
+            </tr>
+            <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+            <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+            <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+            <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+    </table>
     </div>
     <div class="right_div">
-      <p>Tendency indicators</p>
+      <h1>Tendency indicators</h1>
     </div>
   </div>
    <!-- end my Sales dashboard -->

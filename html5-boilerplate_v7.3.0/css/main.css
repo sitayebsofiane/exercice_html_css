@@ -279,8 +279,42 @@ textarea {
 
 }
 .left_div{
-  border: #000 solid 2px;
+  width: 45%;
 }
 .right_div{
-  border: #000 solid 2px;
+  width: 45%;
+}
+form{
+  display: flex;
+  justify-content:space-between;
+  color:red;
+}
+form p{
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 172, 172);
+}
+input{
+  width: 110px;
+  border-radius: 10%;
+}
+#validate{
+  float: bottom;
+}
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+caption{
+  border: 1px  rgb(0, 255, 0) solid;
+  background-color: rgb(0, 255, 0);
+  color: white;
+  height: 40px;
+}
+tr/* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+    height: 40px;
 }
