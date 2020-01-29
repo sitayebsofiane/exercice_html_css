@@ -272,14 +272,16 @@ textarea {
 }
 .content{
   display: flex;
-  justify-content: space-between;
-  border: #000 solid 2px;
+  justify-content: space-around;
   min-height: 100vh;
   margin: 50px;
 
 }
 .left_div{
   width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .right_div{
   width: 45%;
@@ -313,8 +315,11 @@ caption{
   color: white;
   height: 40px;
 }
-tr/* Mettre une bordure sur les td ET les th */
+.table1 tr/* Mettre une bordure sur les td ET les th */
 {
     border: 1px solid black;
     height: 40px;
+}
+.table2 tr,th{
+  border: #000 solid 1px;
 }
