@@ -270,3 +270,17 @@ textarea {
 .menu h1{
   text-align: center;
 }
+.content{
+  display: flex;
+  justify-content: space-between;
+  border: #000 solid 2px;
+  min-height: 100vh;
+  margin: 50px;
+
+}
+.left_div{
+  border: #000 solid 2px;
+}
+.right_div{
+  border: #000 solid 2px;
+}
