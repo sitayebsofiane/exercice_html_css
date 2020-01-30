@@ -270,6 +270,7 @@ textarea {
 }
 .menu h1{
   text-align: center;
+  margin: 0;
 }
 .content{
   display: flex;

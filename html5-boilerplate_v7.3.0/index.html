@@ -30,12 +30,18 @@
      <!-- the first bloc of the left-->
       <form method="post" action="traitement.php">
             <p><label for="product">Product</label><input type="text" name="product" id="product" placeholder="product's name"/></p>
-            <p><label for="Price">Price</label><input type="text" name="Price" id="Price" /></p>
+            <p>
+              <label for=“price-select”>Price</label>
+            <select name=“price” id=“price-select”>
+              <option value=“asc”>- to +</option>
+              <option value=“desc”>+ to -</option>
+            </select>
+          </p>
             <p><label for="quantite">Quantite > to</label><input type="number" name="quantite" id="quantite" /></p>
-            <p><label for="quantite" style="color: white;">Q</label><input type="submit" id="validate" name="validate" value="Sort"/></p>
+            <p><label for="quantite" style="color: white;">white</label><input type="submit" id="validate" name="validate" value="Sort"/></p>
 
      </form>
-    <!-- the first bloc of the left-->
+    <!-- the second bloc of the left-->
     <table class="table1">
         <caption> <h3><i>Sales records </i></h3> </caption>
      
