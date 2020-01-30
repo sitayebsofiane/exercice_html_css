@@ -345,3 +345,31 @@ td {
   background-color: rgb(124, 44, 44);
 }
 /*--------------------------right div----------------------------------------*/
+.circle{
+  display: flex;
+  justify-content:space-between;
+}
+span p {
+  margin: auto;
+}
+
+span {
+  background-color: rgb(122, 73, 73);
+  display: inline-block;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+.circle1{
+  background-color:#F3DE8A;
+}
+.circle2{
+  background-color: #EB9486;
+}
+.circle3{
+  background-color:#F3DE8A;
+}
+.circle4{
+  background-color:#4D9078;
+}
