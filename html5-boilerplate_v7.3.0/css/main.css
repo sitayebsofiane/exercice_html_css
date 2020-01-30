@@ -290,12 +290,12 @@ textarea {
 form{
   display: flex;
   justify-content:space-between;
-  color:red;
+
 }
 form p{
   display: flex;
   flex-direction: column;
-  color: rgb(0, 172, 172);
+
 }
 input{
   width: 110px;

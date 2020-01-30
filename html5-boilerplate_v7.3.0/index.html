@@ -32,7 +32,7 @@
             <p><label for="product">Product</label><input type="text" name="product" id="product" placeholder="product's name"/></p>
             <p><label for="Price">Price</label><input type="text" name="Price" id="Price" /></p>
             <p><label for="quantite">Quantite > to</label><input type="number" name="quantite" id="quantite" /></p>
-            <p><input type="submit" id="validate" name="validate" value="Sort"/></p>
+            <p><label for="quantite" style="color: white;">Q</label><input type="submit" id="validate" name="validate" value="Sort"/></p>
 
      </form>
     <!-- the first bloc of the left-->
@@ -74,23 +74,40 @@
     <table  class="table2">
       
         <tr>
-          <th class="Stock">Stock</th>
-          <th class="Cash">Cash</th>
+          <th class="Stock"><i class="fas fa-cubes"></i>Stock</th>
+          <th class="Cash"><i class="fas fa-dollar-sign"></i>Cash</th>
         </tr>
         <tr>
-          <th class="Conversion">Conversion</th>
-          <th class="Stock">Warhouse</th>
+          <th class="Conversion"><i class="fas fa-trophy"></i>Conversion</th>
+          <th class="Stock"><i class="fas fa-home"></i>Warhouse</th>
         </tr>
     
     </table>
     </div>
     <div class="right_div">
-      <h1>Tendency indicators</h1>
+      <h1>Tendency indicators <i class="fas fa-stethoscope"></i>
+
+      </h1>
       <!-- the first bloc of the right-->
-      
+    <div class="circle">
+      <svg height="150" width="150">
+        <circle cx="60" cy="60" r="50" stroke="black" stroke-width="3" fill="yellow" />
+      </svg>
+      <svg height="150" width="150">
+        <circle cx="60" cy="60" r="50" stroke="black" stroke-width="3" fill="red" />
+      </svg>
+      <svg height="150" width="150">
+        <circle cx="60" cy="60" r="50" stroke="black" stroke-width="3" fill="red" />
+      </svg>
+
+    </div>
+    <!-- the seconde bloc of the right-->
+    <h1>Charts <i class="fas fa-chart-line"></i></h1>
     </div>
   </div>
-   <!-- end my Sales dashboard -->
+  <!-- end my Sales dashboard -->
+  <!-- script pour les icone -->
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
