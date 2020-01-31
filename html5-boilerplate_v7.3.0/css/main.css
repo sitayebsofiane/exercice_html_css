@@ -277,7 +277,7 @@ textarea {
   justify-content: space-around;
   min-height: 150vh;
   margin: 50px;
-
+  flex-wrap: wrap;
 }
 .left_div{
   width: 45%;
